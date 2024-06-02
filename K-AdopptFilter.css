@@ -6,7 +6,7 @@
     width: 70%;
     border-width: 1px solid;
     border-right: 1px solid;
-    border-bottom: 1px solid;
+    border-bottom: 1px thin solid;
     margin: 0 auto;
 }
 .plus-option {
@@ -20,6 +20,8 @@
     border: none;
     height: 60px;
     width: 100%;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
 }
 table {
     border-bottom: 1px solid #444;
@@ -91,7 +93,7 @@ th {
 .search-button {
     background-color: transparent;
     border: none;
-    height: 60px;
+    height: 59px;
     padding-top: 10px;
 }
 
@@ -99,6 +101,8 @@ th {
     display: flex;
     align-items: center;
     width: 100%;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
 }
 .toSpacing {
     padding-top: 10px;
